@@ -1,0 +1,6 @@
+ <div>
+  <input id="searchbox" type="text" name="searchtodos" placeholder="Filter your to-dos" ng-model="todoFilter">
+    <ol>
+      <li hover-state  ng-repeat="item in $ctrl.todoList | filter : todoFilter track by $index">{{item}}<span ng-click="$ctrl.removeTodo($index)" <i class="material-icons">close</i></span></li>
+    </ol>
+ </div>

@@ -1,0 +1,37 @@
+body{
+  background: linear-gradient(to right, #f857a6, #ff5858);
+}
+#container{
+
+  background-color:#eee;
+  width:360px;
+  margin:0 auto;
+  margin-top: 182px;
+  position:relative;
+
+}
+.material-icons{
+  margin: 0px;
+  position:absolute;
+  right:10px;
+
+}
+#buttonstyle{
+  background: #ff69b4;
+  width:96%;
+  margin-left: 6px;
+  border-radius: 6px;
+  height:35px;
+  margin-bottom: 10px;
+
+}
+#searchbox{
+  margin-left: 11px;
+  width:329px;
+  height:27px;
+}
+#addbox{
+  margin-left: 11px;
+  width:329px;
+  height:27px;
+}

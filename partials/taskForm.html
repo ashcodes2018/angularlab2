@@ -1,0 +1,7 @@
+<div id="container">
+      <h2>TO-DO List</h2>
+      <p>A place to store the things  you have to do!</p>
+      <task-list todo-list = "$ctrl.todoList"></task-list>
+      <input id="addbox" type="text" name="newtodos" placeholder="Add your todos" ng-model="$ctrl.item" >
+      <p><button id="buttonstyle" ng-click="$ctrl.addTodo($ctrl.item)">Add</button></p>
+  </div>
